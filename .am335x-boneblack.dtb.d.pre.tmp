@@ -1,0 +1,7 @@
+am335x-boneblack.o: arch/arm/boot/dts/am335x-boneblack.dts \
+ arch/arm/boot/dts/am33xx.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/am33xx.h \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h \
+ arch/arm/boot/dts/am335x-bone-common.dtsi \
+ arch/arm/boot/dts/am335x-boneblack-common.dtsi
